@@ -1,0 +1,33 @@
+Static Methods, Static Variables and Object Bags
+
+1. Write two static methods in a Utilities class. One will convert temperature from Celsius to
+Fahrenheit and one will convert temperature from Fahrenheit to Celsius.
+
+2. Write a Course class that contains the following instance variables:
+a. courseName: String
+b. numberOfCredits: int
+c. letterGrade: String
+Create a Helper class that contains a static calculateGPA method.
+Finally, create a Demo class in which you will hard code a bunch of courses and display the GPA
+based on these courses by calling the calculateGPA method.
+
+3. Create a super class called Person. The class should contain the following instance variables:
+a. name: String
+b. id: String
+The id has to be unique and incremented automatically for each instance of the Person class
+Create a Student class and a Faculty class that extend the Person class. The Student class has a
+field called gpa and the Faculty class has a field called salary, and both fields are of the double
+type.
+Create a PersonBag class that contains a Person array of a given maximum size that is capable of
+storing a bunch of Student and Faculty objects. Also, write the following methods in the class
+using the following headers:
+a. public void insertPerson(Person person)
+b. public Person findPersonById(String id)
+c. public Pereson findPersonByName(String name)
+d. public Student findStudentById(String id)
+e. public Student findStudentByName(String name)
+f. public Person deletePersonById(String id)
+g. public Student deleteStudentByid(String id)
+Finally in the Demo class, create a PersonBag object and insert a bunch of Student and Faculty
+objects in the array. You may hard code these objects. Then demonstrate how all the methods
+work.

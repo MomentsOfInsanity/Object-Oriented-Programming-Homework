@@ -1,0 +1,34 @@
+Deep Copy, Shallow Copy, and Static Variables and Methods
+
+All the following classes should have getters, setters, toString(), deepCopy, and shallowCopy methods
+
+1. Write an Address class that contains the following fields: streetNumber, streetName, city,
+state, and zip. All these fields are of the type of String. Write three constructors: a no-arg
+constructor, a constructor that will take all of the 5 strings as parameters, and a deep copy
+constructor that would take an existing address object to create an identical one. Write a demo
+class called Demo1 to demonstrate the class.
+
+2. Write a Student class that contains the following four fields: a name as String, an id as int, a gpa
+as double, an address as Address. Write three constructors as well: a no-arg constructor, a
+constructor that will take a name, an id, a gpa, and an address as parameters, and a deep copy
+constructor that would take an existing student object to create an identical one. In addition,
+write a static method called curve(double amount). This method would curve a Student’s gpa by
+the amount specified. Write a demo class called Demo2 to demonstrate the class and the static
+method.
+
+3. Write a Faculty class that contains the following four fields: a name as String, an id as int, salary
+as double, an address as Address. Write three constructors as well: a no-arg constructor, a
+constructor that will take a name, an id, a salary, and an address as parameters, and a deep copy
+constructor that would take an existing student object to create an identical one. In addition,
+write a static method called raise(double amount). This method would raise a Faculty’s salary by
+the amount specified. Write a demo class called Demo3 to demonstrate the class and the static
+method.
+
+4. Write a Textbook class that contains the following fields: title as String, author as String, ISBN as
+a String, and price as a double. Write three constructors similar to the ones stated in the
+previous two problems. Write a demo class called Demo4 to demonstrate the class.
+
+5. Write a Course class that contains a course title as String, a CRN number as String, a textbook as
+Textbook, a student as Student, and an instructor as Faculty. Write three constructors similar
+to the ones stated in the previous problems. Write a demo class called Demo5 to demonstrate
+the class and the use of the two static methods.
