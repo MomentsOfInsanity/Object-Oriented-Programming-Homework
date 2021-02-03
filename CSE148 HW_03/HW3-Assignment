@@ -1,0 +1,79 @@
+Problem Set 3 								Classes
+
+1. The Pet Class
+Design a class named Pet, which should have the following fields:
+- name (for example, Dexter, Penny, etc)
+- type (for example, dog, cat, bird, lizard, etc)
+- age
+The Pet class should also have three overloaded constructors, and all the setters and getters.
+Once you have designed the class, design a Demo class that creates an object of the Pet class
+and prompts the user to enter the name, type, and age of the pet. Use the object’s getters to
+retrieve the pet’s name, type, and age and display this data on the screen.
+
+2. The Fan class
+Design a Fan class. The class contains:
+1. A private int data field named speed that specifies the speed of the fan.
+2. A private boolean data field named on that specifies whether the fan is on.
+3. A private double data field named radius that specifies the radius of the fan.
+4. A private String data field named color that specifies the color of the fan.
+5. The accessor and mutator methods for the above four data fields.
+6. A no-arg constructor that creates a default fan.
+7. An overloaded constructor with four parameters to obtain data for the four fields.
+8. A method named toString() that returns a string description for the fan. If the fan is
+on, the method returns the fan speed, color, and radius in one combined string. If
+the fan is not on, the method returns the fan color and radius along with the string
+“fan is off” in one combined string.
+Write a Demo class that creates two Fan objects. Assign the following values for the first fan:
+speed: 1000rpm, radius: 12, color: blue, and fan-state: on. Assign the following values to the
+second fan: speed: 2000rpm, radius: 5, color: blue, and fan-state: off. Display the objects by
+invoking the toString method.
+
+3. The ParkingTicket class
+Write the following three classes:
+a. A Cop class to contain a String field called name, and another String field called
+badgeNumber.
+b. A ParkingMeter class contains an int field called illegalParkingMinutes and a String field
+called meterNumber.
+c. A ParkingTicket class. The class should have the following fields:
+- A Cop field named cop.
+- A ParkingMeter field called meter.
+- A String field called ticketNumber.
+- A double field called finePerIllegalMinute.
+Use the following data to create two tickets:
+a. Ticket 1: Cop’s name: John Doe; BadgeNumber: 123; illegalParkingMinutes: 50;
+meterNumber: SuffolkMeter101; Ticket number: 101; finePerIllegalMinute: $0.10
+b. Ticket 2: Cop’s name: Jane Doe; BadgeNumber: 321; illegalParkingMinutes: 100;
+meterNumber: SuffolkMeter102. Ticket number: 210; finePerIllegalMinute: $0.15.
+Use constructors rather than setters to assign values. Make use of the toString() method to
+print out the Parking Tickets in a nice format (for example, the currency should have two
+decimal places after the period, like $3.35).
+
+4. Write a class called Point. The class has two instance fields: x and y, both are of the double type. Write
+two constructors: one uses x and y values to construct a point, and the other uses an existing Point
+object to create another Point object with the exact same x and y values. You need to create the
+appropriate setter, getter, and toString methods. In addition, you need to create a deep copy method
+called deepCopy(Point point) that returns another Point object. Finally you need create a shallow copy
+method that will shallow copy (shallowCopy(Point point)) an existing point. Write a Demo class to build
+the following four Point objects:
+Point 1: (x = 5, y = 10). This point needs to be built using the first constructor
+Point 2: (x = 7, y = 12). This point needs to be built using the deep copy constructor that copies
+Point 1 and then using only one setter method.
+Point 3: (x = 10, y = 15): This point needs to be built using the deep copy method that uses Point
+2 as the original and then use two setter methods to change to the required x and y values.
+Point 4 : This point needs to be built using the shallow copy method. It must use Point 3 as the
+shallow copy template.
+Finally print out all the four points using one statement.
+
+5. Do the previous problem but this time use a class called Student rather than Point. The student class
+must have three fields (name, id and gpa) and it must have at least a deep copy constructor, a deep copy
+method, and a shallow copy method. Write a demo class to show how these methods work.
+6. Write the following three classes:
+a. A Student class with three fields: name, id, and gpa.
+b. A Faculty class also with three fields: name, id and salary.
+c. A Course class with four fields: a course title, a course number, an array of students, and
+a faculty member.
+Write a Demo class that will create 5 students, 1 faculty, and two courses (CSE118 and CSE148). The two
+courses will first contain the same 5 students and the same faculty member. Now change the faculty to
+a new faculty whose name is “Chen” for CSE118 but keep the original faculty for CSE148. Print out the
+two courses, with all the information about the 5 students, their faculty, the course title, and course
+name, respectively. Use inheritance whenever possible to simplify the solution.

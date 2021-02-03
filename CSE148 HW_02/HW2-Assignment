@@ -1,0 +1,72 @@
+1. Design a class that holds the following information: name, address, age, and phone number.
+Write appropriate accessor and mutator methods. Demonstrate the class by writing a program
+that creates two instances (objects) of it and print out the information. One instance should
+hold your information, and the other one should hold your friend’s information.
+
+2. Write a Circle class that has the following fields:
+- radius: a double
+- PI: a double initialized with the value 3.14159
+The class should have the following methods:
+- setRadius. A mutator method for the radius field.
+- getRadius. An accessor method for the radius field.
+- getArea. Returns the area of the circle, which is calculated as
+area = PI * radius * radius
+- getDiameter. Returns the area of the circle, which is calculated as
+diameter = radius * 2
+- getCircumference. Returns the circumference of the circle, which is calculated as
+circumference = 2 * PI * radius
+Write a program that demonstrates the Circle class by asking the user for the circle’s radius,
+creating a Circle object, and then reporting the circle’s area, diameter, and circumference.
+
+3. Design a Pet class that holds the type and name of the pet, and the sound it makes. So when you
+create an instance of a pet, say a dog called Einstein who woofs, it will print out that fact on the
+screen. You should also create another pet instance, say a cat called Whoopi Goldberg who
+meows, the demo program will print out that fact as well.
+
+4. Write a Student class that has name and gpa fields. Write all the mutator and accessor
+methods. Finally, write code so this class has a curveGPA(double curveAmount) method that
+curves a student object’s GPA by a given curveAmount. Write a demo program to curve a given
+student’s GPA by 0.2.
+
+5. Create a Book class. It should have the following three instance variables: title, author, and
+price. Write a Demo class that will ask the user to provide such information about two books
+using the keyboard. These two book objects will then be created and displayed on the console.
+
+6. Create a Persons class that contains the following fields and methods:
+a. Fields:
+Name, Social Security Number, and age
+b. Methods:
+All the getters and setters.
+Write a Demo program to demonstrate how the class works by creating two objects and display
+each object’s information. The information about each object needs to be obtained from the
+user at the run time using the Demo class.
+
+7. Create a Car class that has the following fields and methods:
+a. Fields:
+Color, Year, Make, speed
+b. Methods:
+Accessors, mutators, a method called speedUp() to increase the speed by 10 miles per
+hour, and a slowDown() method that reduces the speed by 10 miles per hour.
+Write a Demo program to demonstrate how the class works by creating a car object. It will then
+display its information such as the make, year, color, and current speed. It will then call the
+speedUp() method five times and the slowDown() method four times. It will display its final
+speed. The input needs to be obtained from the user at the run time in the Demo class.
+
+8. Write a Rectangle class that has all the necessary fields and methods. Write a Demo program to
+demonstrate how the class works by calculating and displaying the TOTAL area of THREE
+rectangular rooms in your house. The dimensions of each room need to be obtained from the
+user at the run time in the Demo class.
+
+9. Write a Java program that will allow you to create and display information of THREE students at
+our college. The student information must include first name, last name, student id, an array of
+courses currently taking, and GPA. The input should be provided at run time through a Scanner
+object in the Demo class. All the information should be displayed in a nicely formulated table.
+
+10. Create a Circle class that has the following field and methods:
+a. Field:
+Radius
+b. Methods:
+Getter, setter, and a method to get the area of the circle for a given radius.
+Write a Demo program to demonstrate how the class works by creating two circle objects and
+display each object’s information such as the radius and area. The radius of each object needs to
+be obtained from the user at the run time in the Demo class.

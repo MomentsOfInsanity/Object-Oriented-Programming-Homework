@@ -1,0 +1,70 @@
+Create a Java project called “Your_Last_Name CSE148 HW1”. Then create a package for each
+problem below within that project. For example, the program you write for the first problem
+will be in a package called “p1”, so on and so forth.
+before submitting it into the dropbox on Blackboard, please first compress the whole project
+into one single zip file. No other formats such as 7zip or rar are permitted.
+
+1. Write a Java program that will ask the user for his/her name. It will then display the
+name on the console.
+
+2. Write a Java program that will ask the user for his/her name and then his/her significant
+other’s name. It will then display both names with a “&” symbol in between at once.
+(hint: use two String variables to hold the names as the names are entered, and then
+display the them at the end).
+
+3. Rewrite the previous program, this time, you will print out the first initials of the two
+names and a heart symbol in between. (hint: first get name1 and name2 from the user.
+You may use Unicode 0x2764 for the heart symbol like this:
+System.out.println(name1.substring(0, 1) + “ \u2764 ” + name2.substring(0, 1);
+4. Write a Java program that will ask the user for his/her name and GPA and print out the
+results on the same line. The program will repeat as such infinitely. You will have to
+manually stop the program for it to stop. You should use System.out.println() method to
+print.
+
+5. Write a Java program that will ask the user for his/her name, phone, and GPA and print
+out the results on the same line. The program will repeat as such infinitely. You will have
+to manually stop the program for it to stop. You should use System.out.printf() method
+to print.
+
+6. Rewrite problem 4, this time, you want to introduce a mechanism so the program will
+ask the user if he/she wants to continue. It will repeat only if the user enters ‘Y’ or “Yes”
+or “YES” or anything starting with an uppercase or lowercase Y.
+
+7. Write a Java program that will print out a sample check from a restaurant. It should
+display the name, address, phone number of the restaurant, the server’s name, the
+itemized dishes ordered with their prices, the subtotal, the tax (8.625% tax rate), and
+the total. You do not need to get the information from the user. All you have to do is to
+print the check with the information hard coded in your program. 
+
+For example:
+System.out.println("---------------------------------------------------");
+System.out.println("\t\tOlive Garden");
+System.out.println("\tThe Healthy Choice for Your Family");
+System.out.println("\t123 Main Street, Selden, NY 11784");
+System.out.println("\t\t(631) 123 - 4567");
+System.out.println();
+System.out.println("Server: Johnny\t\t\tTable 15");
+System.out.println();
+System.out.printf("%2d%10s%5d%10.2f%10.2f\n", 1, "Red Wine", 2, 6.25, (2*6.25));
+System.out.printf("%2d%10s%5d%10.2f%10.2f\n", 2, "Milk", 1, 2.25, (1*2.25));
+You will do two more items, tax, subtotal, and total to complete the check.
+
+8. You will modify the last program so it will ask the user for the item, the quantity of each
+item, repeat until the user indicates the end of the order. It will then display the whole
+check in the end. You will be using a bunch of variables to hold information as the user
+orders. These variables will be used to print out the check all at once in the end.
+
+9. Write a Chinese zodiac program. You may either use if-else-if or preferably switch case
+to do it. Here is the data: for remainders from 0 to 11, the animals are Monkey, Rooster,
+Dog, Pig, Rate, Ox, Tiger, Rabbit, Dragon, Snake, Horse, and Sheep, respectively. The
+program will display the appropriate animal type when a year is entered.
+
+10. Just for fun. Write a number-guessing game. The user will be asked to pick a number
+silently between 1 and 100. The program will display a number and ask if it is the
+number the user picked. If not, the program will ask if the displayed number is too small
+or too big. The user will have to tell the truth. Your program will then display another
+number, so on and so forth, until the displayed number matches the silently picked
+number. The program will then display the score which is the total number of guesses.
+The game will ask the user if he/she wants to play again. It will either repeat or stop the
+game based on the user input. Note: this program requires a little bit of thinking. So it is
+great if you can do it.
